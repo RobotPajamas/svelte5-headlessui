@@ -1,2 +1,5 @@
 # svelte5-headlessui
-An experimental attempt at porting some of the HeadlessUI code over to Svelte 5 (preview)
+
+## License
+
+This library is licensed under the MIT license; see the LICENSE file for more.
