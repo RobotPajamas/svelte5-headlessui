@@ -76,7 +76,7 @@ function sveltify(): Plugin {
         // TODO: Should the `await` be at call site or generated in? Because the test needs to be async else it'll fail
         transformedCode = transformedCode.replace(
           fullMatch,
-          `await import("${virtualModuleId}")`
+          `import("${virtualModuleId}")`
         );
       });
 
